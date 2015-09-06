@@ -1,0 +1,3 @@
+name = CKeditor Code Snippet
+description = Add ckeditor's codesnippet module to wysiwyg module
+core = 7.x

@@ -1,0 +1,18 @@
+<?php
+
+function ckeditor_codesnippet_wysiwyg_plugin($editor, $version) {
+
+  switch ($editor) {
+    case 'ckeditor':
+      return array(
+        'codesnippet' => array(
+          'path' => drupal_get_path('module', 'ckeditor_codesnippet') . '/plugin/codesnippet',
+          'buttons' => array(
+            'CodeSnippet' => t('Code Snippet'),
+          ),
+          'load' => TRUE,
+        ),
+      );
+      break;
+  }
+}

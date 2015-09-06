@@ -1,0 +1,6 @@
+download(http://ckeditor.com/download) the ckeditor code to sites/all/libraries/ckeditor
+download Widget(http://ckeditor.com/addon/widget) to sites/all/libraries/ckeditor/plugin/widget
+download Line Utilities(http://ckeditor.com/addon/lineutils) to sites/all/libraries/ckeditor/plugin/lineutils
+
+Enable ckeditor_codesnippet module
+On profile configure page for wysiwyg module, check "Code Snippet"
