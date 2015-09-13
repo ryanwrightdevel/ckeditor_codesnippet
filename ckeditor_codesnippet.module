@@ -16,18 +16,18 @@ function ckeditor_codesnippet_wysiwyg_plugin($editor, $version) {
       break;
   }
 }
+
 function ckeditor_codesnippet_wysiwyg_editor_settings_alter(&$settings, $context) {
-  // Each editor has its own collection of native settings that may be extended
-  // or overridden. Please consult the respective official vendor documentation
-  // for details.
-  if ($context['profile']->editor == 'tinymce') {
-    // Supported values to JSON data types.
-    $settings['cleanup_on_startup'] = TRUE;
-    // Function references (callbacks) need special care.
-    // @see wysiwyg_wrap_js_callback()
-    $settings['file_browser_callback'] = wysiwyg_wrap_js_callback('myFileBrowserCallback');
-    // Regular Expressions need special care.
-    // @see wysiwyg_wrap_js_regexp()
-    $settings['stylesheetParser_skipSelectors'] = wysiwyg_wrap_js_regexp('(^body\.|^caption\.|\.high|^\.)', 'i');
+
+  //if the editor name is ckeditor
+  //We'll set configurations for ckedito
+  if ($context['profile']->editor == 'ckeditor') {
+
+
+
+    //this property is used by ckeditor to load a custom javascript configuration file.
+    $settings['customConfig'] = '/sites/all/modules/custom/ckeditor_codesnippet/js/config.js';
   }
+
+
 }

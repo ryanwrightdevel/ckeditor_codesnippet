@@ -27,13 +27,13 @@ CKEDITOR.editorConfig = function( config ) {
     objectivec: 'Objective-C',
     perl: 'Perl',
     php: 'PHP',
+    puppet: 'Puppet',
     python: 'Python',
     ruby: 'Ruby',
     sql: 'SQL',
     vbscript: 'VBScript',
     xhtml: 'XHTML',
     xml: 'XML',
-    vbnet: 'VB.NET',
-    puppet: 'Puppet'
+    vbnet: 'VB.NET'
   };
 };
