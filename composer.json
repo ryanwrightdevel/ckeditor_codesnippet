@@ -1,0 +1,12 @@
+{
+    "name": "copperturn/ckeditor_codesnippet",
+    "description": "Add a code snippet icon to ckeditor",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ryan Wright",
+            "email": "ryanwrightdev@gmail.com"
+        }
+    ],
+    "require": {}
+}
