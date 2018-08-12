@@ -1,7 +1,7 @@
 {
     "name": "copperturn/ckeditor_codesnippet",
     "description": "Add a code snippet icon to ckeditor",
-    "type": "project",
+    "type": "drupal-module-custom",
     "authors": [
         {
             "name": "Ryan Wright",
